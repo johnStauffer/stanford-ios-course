@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8B3075025A1018200CD3D49 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B3074F25A1018200CD3D49 /* MemoryGame.swift */; };
+		C8B3075525A102E200CD3D49 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B3075425A102E200CD3D49 /* EmojiMemoryGame.swift */; };
 		C8BD04C2259FBEB0005BBFD8 /* stanford_swift_courseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD04C1259FBEB0005BBFD8 /* stanford_swift_courseApp.swift */; };
 		C8BD04C4259FBEB0005BBFD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BD04C3259FBEB0005BBFD8 /* ContentView.swift */; };
 		C8BD04C6259FBEB1005BBFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8BD04C5259FBEB1005BBFD8 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C8B3074F25A1018200CD3D49 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		C8B3075425A102E200CD3D49 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
 		C8BD04BE259FBEB0005BBFD8 /* stanford swift course.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stanford swift course.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8BD04C1259FBEB0005BBFD8 /* stanford_swift_courseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stanford_swift_courseApp.swift; sourceTree = "<group>"; };
 		C8BD04C3259FBEB0005BBFD8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,10 +99,12 @@
 		C8BD04C0259FBEB0005BBFD8 /* stanford swift course */ = {
 			isa = PBXGroup;
 			children = (
-				C8BD04C1259FBEB0005BBFD8 /* stanford_swift_courseApp.swift */,
 				C8BD04C3259FBEB0005BBFD8 /* ContentView.swift */,
+				C8B3074F25A1018200CD3D49 /* MemoryGame.swift */,
+				C8B3075425A102E200CD3D49 /* EmojiMemoryGame.swift */,
 				C8BD04C5259FBEB1005BBFD8 /* Assets.xcassets */,
 				C8BD04CA259FBEB1005BBFD8 /* Info.plist */,
+				C8BD04C1259FBEB0005BBFD8 /* stanford_swift_courseApp.swift */,
 				C8BD04C7259FBEB1005BBFD8 /* Preview Content */,
 			);
 			path = "stanford swift course";
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8B3075025A1018200CD3D49 /* MemoryGame.swift in Sources */,
 				C8BD04C4259FBEB0005BBFD8 /* ContentView.swift in Sources */,
 				C8BD04C2259FBEB0005BBFD8 /* stanford_swift_courseApp.swift in Sources */,
+				C8B3075525A102E200CD3D49 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
