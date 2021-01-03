@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var viewModel: EmojiMemoryGame
-    
+    //HELLO CONNOR
     var body: some View {
         HStack{ //spacing: has a default that adds padding to elements
             ForEach(viewModel.cards.shuffled()) { card in // can also be declared as
